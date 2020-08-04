@@ -1,4 +1,3 @@
-import { Lista } from './../../models/lista.model';
 import { DeseosService } from './../../services/deseos.service';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
@@ -59,11 +58,5 @@ async agregarLista(){
 
 }
 
-listaSeleccionada( lista: Lista ){
-
-  // console.log(lista);
-  this.router.navigateByUrl(`/tabs/tab1/agregar/${lista.id}`);
-
-}
 
 }
