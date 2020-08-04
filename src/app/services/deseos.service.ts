@@ -8,7 +8,7 @@ export class DeseosService {
 
   listas: Lista[] = [];
 
-  constructor() {
+  constructor( ) {
 
     this.cargarStorage();
 
@@ -62,6 +62,10 @@ export class DeseosService {
       this.listas = [];
     }
 
+
+  }
+
+  modificarLista() {
 
   }
 
